@@ -15,31 +15,33 @@
 						<div class="card">
 							<div class="card-main">
 								<div class="card-inner margin-bottom-no">
-										<p class="card-heading">iPhone手机使用教程</p>
-										<a href="/ios.mp4" target="_blank"><img src="/video.jpg" width=200></a>
+										<p class="card-heading">ANDROID手机使用教程</p>
+										<a href="/android.mp4" target="_blank"><img src="/video.jpg" width=200></a>
 										<p>
 											<h5>第一步：下载安装</h5>
-											<br>App Store登陆帐号:<code>app@fanqiang.co</code>密码：<code>Fanqiang123</code>，查看已购项目，下载并打开app “Shadowrocket”。
+											下载安装包<a href="/ssr-download/ssr-android.apk">ssr-android.apk</a>并安装。
 										</p>
 										<p>
 											<h5>第二步：选择模式</h5>
-											<br>点击全局路由 - 选择“配置”。<!--国际加速请跳到第三步。回国加速请点击底下的配置 - 添加配置 - 输入地址<code>{$baseUrl}/hgjs.conf</code> - 下载 - 点击添加的网址 - 使用配置。-->
+											<br>打开SSR，向上滑动屏幕，点击 “功能设置” 下的 “路由” - 选择"绕过局域网及中国大陆地址"。
+                                           
 										</p>
 										<p>
 											<h5>第三步：添加订阅</h5>
 											订阅地址：<code>{$baseUrl}/link/{$ssr_sub_token}?mu=0</code>（请妥善保管，避免泄露）
-											<br>在小火箭中点击右上角 “+” 号 - 类型选择 “Subscribe” - 将订阅地址复制粘贴到URL框 - 右上角 “完成” 。
+							                <br>点击左上角shadowsocksR文字 - 点击右下角 "+" 号 - 添加/升级SSR订阅地址 - 找到订阅列表下的FreeSSR-public - 向左滑动 - 直接删除。
+											<br>此时回到上一界面 - 点击右下角 "+" 号 - 添加/升级SSR订阅地址 - 添加订阅地址 - 将订阅地址复制粘贴到输入框 - 打开自动更新 - 确定并升级。
 										</p>
 										<p>
 											<h5>第四步：选择节点</h5>
-											<br>想左滑动 “选择节点” 下的 “fangqiang.co” <!--<code>{$baseUrl}</code>--> - 点击“更新”。
-											<br >在下方节点列表中选择一个节点 - 点击最上方的“连接”开关启动VPN。
+											选择一个节点 - 点击右上角圆形小飞机图标 - 提示网络连接请求 - 点确定。
 										</p>
 										
 										<p>	
 											<h5>配置完成，测试一下吧</h5>
-											<br>极速访问全球网络：<a href="https://www.youtube.com/watch?v=D6tC1pyrsTM&t=3690s" target="_blank">点击测试YouTube4K视频</a>
-										   	<br>PS：下次直接打开app “Shadowrocket” ，连接即可使用
+											<br>国际加速 - 人在国内，极速访问全球网络：<a href="https://www.youtube.com/watch?v=D6tC1pyrsTM&t=3690s" target="_blank">点击测试YouTube4K视频</a>
+											
+											<br>PS：下次直接打开小飞机连接即可使用
 										</p>
 									<!--<p>	
 											<h5>有问题？找客服</h5>

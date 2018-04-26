@@ -43,10 +43,10 @@
 										<p>	
 											<h5>配置完成，测试一下吧</h5>
 											<br>国际加速 - 人在国内，极速访问全球网络：<a href="https://www.youtube.com/watch?v=D6tC1pyrsTM&t=3690s" target="_blank">点击测试YouTube4K视频</a>
-											<br>回国加速 - 人在海外，解锁国内版权资源：<a href="https://www.bilibili.com/bangumi/play/ep173286" target="_blank">点击测试bilibili正版番剧</a>
+											
 											<br>PS：下次直接打开小飞机即可使用
 										</p>
-										<p>	
+										<!--<p>	
 											<h5>有问题？找客服</h5>
 											<a href="https://wpa.qq.com/msgrd?v=3&amp;uin=123456789&amp;site=qq&amp;menu=yes" title="QQ客服">QQ客服</a>：123456789
 											<br>下载远程协助软件<a href="/TeamViewerQS.dmg">TeamViewerQS.dmg</a>
@@ -54,7 +54,7 @@
 										<p>	
 											<h5>进阶阅读：</h5>
 											<a href="https://switchyomega.com/index.html">SwitchyOmega - 轻松快捷地管理和切换多个代理设置</a>
-										</p>
+										</p> -->
 								</div>
 							</div>
 						</div>
