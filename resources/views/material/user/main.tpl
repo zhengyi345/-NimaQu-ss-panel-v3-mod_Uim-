@@ -388,3 +388,4 @@
 			</div>
 		</div>
 	</nav>
+{if $config["enable_crisp"] == 'true'}{include file='crisp.tpl'}{/if}
