@@ -137,12 +137,12 @@ $System_Config['enable_geetest_checkin']='false';      //启用签到验证码
 
 //支付系统设置--------------------------------------------------------------------
 #取值 codepay,doiampay,paymentwall,zfbjk,spay,f2fpay,yftpay,none,f2fpay_codepay
-$System_Config['payment_system']='none';
+$System_Config['payment_system']='codepay';
 
 #codepay码支付
 #wiki地址:https://goo.gl/dRwRDi  http://t.cn/RnsWjtB
-$System_Config['codepay_id']='';      //码支付ID
-$System_Config['codepay_key']='';      //码支付通信密钥
+$System_Config['codepay_id']='48165';      //码支付ID
+$System_Config['codepay_key']='EJF5Z1oIJ328OyCCdiBRuq1cQw35Zvld';      //码支付通信密钥
 
 #doiampay,https://www.daimiyun.cn/register.php?aff=624
 $System_Config['doiampay']=[
