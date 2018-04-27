@@ -1,6 +1,6 @@
 	<footer class="ui-footer">
 		<div class="container">
-			<marquee>&copy; {$config["appName"]}  <a href="/staff">staff</a>  <marquee> {if $config["enable_analytics_code"] == 'true'}{include file='analytics.tpl'}{/if}
+			<marquee>&copy; {$config["appName"]} 遇到问题可以点击页面右下角圆形对话图标，联系在线客服 <a href="/staff">staff</a>  <marquee> {if $config["enable_analytics_code"] == 'true'}{include file='analytics.tpl'}{/if}
 		</div>
 	</footer>
 

@@ -48,8 +48,8 @@
 
 									<p><button class="btn btn-flat btn-brand waves-attach" data-dismiss="modal" id="windows" type="button"><i class="icon icon-lg">desktop_windows</i>&nbsp;Windows电脑使用教程</button></p>
 									<p><button class="btn btn-flat btn-brand waves-attach" data-dismiss="modal" id="macos" type="button"><i class="icon icon-lg">laptop_mac</i>&nbsp;MacOS电脑使用教程</button></p>
-									<p><button class="btn btn-flat btn-brand waves-attach" data-dismiss="modal" id="ios" type="button"><i class="icon icon-lg">laptop_mac</i>&nbsp;iPhone手机使用教程</button></p>
-									<p><button class="btn btn-flat btn-brand waves-attach" data-dismiss="modal" id="android" type="button"><i class="icon icon-lg">android</i>&nbsp;Android手机使用教程</button></p>
+									<p><button class="btn btn-flat btn-brand waves-attach" data-dismiss="modal" id="ios" type="button"><i class="icon icon-lg">phone_android</i>&nbsp;iPhone手机使用教程</button></p>
+									<p><button class="btn btn-flat btn-brand waves-attach" data-dismiss="modal" id="android" type="button"><i class="icon icon-lg">phone_android</i>&nbsp;Android手机使用教程</button></p>
 									<!-- <p><button class="btn btn-flat btn-brand waves-attach" data-dismiss="modal" id="sstap" type="button"><i class="icon icon-lg">desktop_windows</i>&nbsp;游戏加速使用教程</button></p> -->
 									{*<p>
 										测试一下：
@@ -86,15 +86,20 @@
 										<p><dt>上次使用</dt>
 										<dd>{$user->lastSsTime()}</dd></p>*}
 										<p>用户邮箱：{$user->email}</p>
-										<p>当前余额：{$user->money} 元</p>
+										<p>当前余额：{$user->money} 元
+                                         &nbsp<a href="/user/code">
+										      <i class="icon icon-lg">payment</i>&nbsp;账户充值
+									          </a>
+                                        </p>
 										<p>当前套餐：
 										   {if $user->class==0}
 												已失效，请重新购买
                                            {else}
                                                                                        
-                                                {if $user->class==1}付费使用中{/if}
-												{if $user->class==2}免费试用中{/if}
-												{if $user->class==3}回国加速{/if}
+                                                {if $user->class==1}1天试用{/if}
+												{if $user->class==2}季度套餐{/if}
+												{if $user->class==3}半年套餐{/if}
+                                                {if $user->class==4}年付套餐{/if}
 												{if $user->node_speedlimit!=0}
 													限速{$user->node_speedlimit}M
 													{else}
@@ -107,7 +112,7 @@
 											{/if}
                                          </p>
 										<p><a href="/user/shop">
-											<i class="icon icon-lg">shop</i>&nbsp;购买套餐
+											<i class="icon icon-lg">shopping_basket</i>&nbsp;购买套餐
 										</a>
 										&nbsp<a href="/user/invite">
 											<i class="icon icon-lg">loyalty</i>&nbsp;邀请好友

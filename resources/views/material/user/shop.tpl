@@ -23,32 +23,43 @@
 					<div class="card">
 						<div class="card-main">
 							<div class="card-inner">
-								<p>重复购买套餐流量会被重置，请谨慎选择套餐，如若重复购买，请联系在线客服</p>
+								<p>重复购买套餐不会叠加，谨慎选择，请勿重复购买，如有问题联系在线客服</p>
 								<p>当前余额：{$user->money} 元</p>
+                              
+                              <p><a href="/user/code">
+											<i class="icon icon-lg">payment</i>&nbsp;账户充值
+										</a></p>
+                              
 							</div>
 						</div>
 					</div>
                   
-                  
 					
-					<div class="table-responsive">
+				    	<div class="table-responsive">
 						{$shops->render()}
 						<table class="table ">
-                            <tr>
-                                <th>套餐</th>
+                            <tr> 
+                              <th>操作</th>
+                              <th>套餐</th>
 								<th>价格</th>
 								<th>套餐详情</th>
-                              <th>操作</th>
+                           
                                 
                             </tr>
                             {foreach $shops as $shop}
                             <tr>
-                                <td>{$shop->name}</td>
-								<td>{$shop->price} 元</td>
-                                <td>{$shop->content()}</td>
-                                <td>
+                               <td>
                                     <a class="btn btn-brand-accent" href="javascript:void(0);" onClick="buy('{$shop->id}',{$shop->auto_renew},{$shop->auto_reset_bandwidth})">购买</a>
-                                </td>
+                                </td>  
+                              <td>{$shop->name}</td>
+								<td>{$shop->price} 元</td>
+
+                                <td>{if $shop->id==1}有效期24小时 |   包含流量1G   |  不限速  |  支持3个设备同时使用{/if}
+                                    {if $shop->id==2}有效期 90天  |  每30天流量50G  |  限速30M |  支持3个设备同时使用{/if}
+								    {if $shop->id==3}有效期 180天 |  每30天流量50G  |  限速30M |  支持3个设备同时使用{/if}
+                                    {if $shop->id==4}有效期 365天 |  每30天流量100G |  不限速  |  支持3个设备同时使用{/if}</td>  
+                           <!--      <td>{$shop->content()}</td>   -->
+                                
                             </tr>
                             {/foreach}
                         </table>
@@ -88,7 +99,7 @@
 									<p id="name">商品名称：</p>
 									<p id="credit">优惠额度：</p>
 									<p id="total">总金额：</p>
-									<p id="auto_reset">在到期时自动续费</p>
+									<p id="auto_reset"><!--在到期时自动续费--></p>
 									
 									<div class="checkbox switch" id="autor">
 										<label for="autorenew">

@@ -5,7 +5,7 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" name="viewport">
 	<meta name="theme-color" content="#ff9800">
-	<title>{$config["appName"]}</title>
+	<title>{$config["appName"]}</title> 
 
 	
 	
@@ -235,36 +235,48 @@
 	<nav aria-hidden="true" class="menu menu-left nav-drawer nav-drawer-md" id="ui_menu" tabindex="-1">
 		<div class="menu-scroll">
 			<div class="menu-content">
-				<a class="menu-logo" href="/"><i class="icon icon-lg">person_pin_circle</i>&nbsp;FanQiang.co</a>
+				<a class="menu-logo" href="/"></i>&nbsp;&nbsp; FanQiang.co</a>
 				<ul class="nav">
 					{*<li>
 						<a class="waves-attach" data-toggle="collapse" href="#ui_menu_me">我的</a>
 						<ul class="menu-collapse collapse in" id="ui_menu_me">*}
 							<li>
 								<a href="/user">
-									<i class="icon icon-lg">recent_actors</i>&nbsp;用户中心
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="icon icon-lg">recent_actors</i>&nbsp;用户中心
 								</a>
 							</li>
 
+                            <li>
+								<a href="/user/announcement">
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="icon icon-lg">announcement</i>&nbsp;查看公告
+								</a>
+							</li>
+                          
 							<li>
 								<a href="/user/edit">
-									<i class="icon icon-lg">sync_problem</i>&nbsp;修改密码
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="icon icon-lg">sync_problem</i>&nbsp;修改密码
 								</a>
 							</li>
 							
 							
 							<li>
 								<a href="/user/shop">
-									<i class="icon icon-lg">shop</i>&nbsp;购买套餐
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="icon icon-lg">shopping_basket</i>&nbsp;购买套餐
 								</a>
 							</li>
 							<li>
 								<a href="/user/invite">
-									<i class="icon icon-lg">loyalty</i>&nbsp;邀请好友
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="icon icon-lg">loyalty</i>&nbsp;邀请好友
 								</a>
 							</li>
-							{*
-							<li>
+                          
+                            <li>
+								<a href="/user/node">
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="icon icon-lg">router</i>&nbsp;节点列表
+								</a>
+							</li>
+							
+						{*	<li>
 								<a href="/user/profile">
 									<i class="icon icon-lg">info</i>&nbsp;返利记录
 								</a>
@@ -283,7 +295,7 @@
 									<i class="icon icon-lg">attach_money</i>&nbsp;捐赠公示
 								</a>
 							</li>
-							{/if}*}
+							{/if} *}
 							
 							
 						{*</ul>*}
@@ -362,7 +374,7 @@
 								</a>
 							</li>*}
 							
-							{*<li><a href="/user/bought"><i class="icon icon-lg">shopping_cart</i>&nbsp;购买记录</a></li>
+							{*<li><a href="/user/bought"><i class="icon icon-lg">shopping_cart</i>&nbsp;购买记录</a></li> 
 							
 							
 
@@ -371,7 +383,7 @@
 								<a href="/user/code">
 									<i class="icon icon-lg">code</i>&nbsp;充值
 								</a>
-							</li>*}
+							</li> *}
 				
 						
 						{if $user->isAdmin()}
