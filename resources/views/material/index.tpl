@@ -45,16 +45,16 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
-            	<li class="nav-item">
+            	<!--<li class="nav-item">
             		<a class="nav-link link text-white display-4" target="_blank" href="//wpa.qq.com/msgrd?v=3&uin=1614245703&site=qq&menu=yes" aria-expanded="false"><span class="mbri-smile-face mbr-iconfont mbr-iconfont-btn"></span>在线咨询</a>
-            	</li>
+            	</li> -->
             	<li class="nav-item">
-            		<a class="nav-link link text-white display-4" href="index.html#pricing-tables1-a" aria-expanded="false"><span class="mbri-globe mbr-iconfont mbr-iconfont-btn"></span>国际加速</a>
+            		<a class="nav-link link text-white display-4" href="index.html#pricing-tables1-a" aria-expanded="false"><span class="mbri-globe mbr-iconfont mbr-iconfont-btn"></span>套餐资费</a>
             	</li>
-                <li class="nav-item">
+               <!-- <li class="nav-item">
                 	<a class="nav-link link text-white display-4" href="index.html#pricing-tables1-14" aria-expanded="false"><span class="mbri-globe-2 mbr-iconfont mbr-iconfont-btn"></span>
                         回国加速&nbsp;</a>
-                </li>
+                </li> -->
             </ul>
             <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="/user"><span class="mbri-user mbr-iconfont mbr-iconfont-btn"></span>
                     
@@ -71,9 +71,10 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="mbr-white col-md-10">
-                <h1 class="mbr-section-title align-center pb-3 mbr-fonts-style display-1"><br>翻 墙</h1>
+                <h1 class="mbr-section-title align-center pb-3 mbr-fonts-style display-1"><br>翻墙｜世界触手可及</h1>
 	                <p class="mbr-text align-center display-5 pb-3 mbr-fonts-style">
-	                	——世界触手可及<!--采用国际加速/回国加速/游戏加速
+	                	极速 / 稳定 / 安全 / 简单
+                        <br>电脑、手机、平板多平台支持<!--采用国际加速/回国加速/游戏加速
 	                	<br>免费试用/不限流量/不限设备
 	                	<br>PC/MAC/IOS/安卓/路由器/LINUX通用-->
 					</p>
@@ -100,20 +101,20 @@
 
             <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-4">
                 <div class="plan-header text-center pt-5">
-                    <h3 class="plan-title mbr-fonts-style display-5">30天套餐</h3>
+                    <h3 class="plan-title mbr-fonts-style display-5">1天试用</h3>
                     <div class="plan-price">
                         <span class="price-value mbr-fonts-style display-5">
                             ￥
                         </span>
-                        <span class="price-figure mbr-fonts-style display-1">30</span>
+                        <span class="price-figure mbr-fonts-style display-1">2</span>
                      <!--   <small class="price-term mbr-fonts-style display-7">每月</small>-->
                     </div>
                 </div>
                 <div class="plan-body pb-5">
                     <div class="plan-list align-center">
                         <ul class="list-group list-group-flush mbr-fonts-style display-7">
-                            <li class="list-group-item"><span style="font-size: 1rem;"><strong><em>有效期30天</em></strong></span></li><li class="list-group-item"><span style="font-size: 1rem;">最大速度10Mbps
-</span></li><li class="list-group-item"><span style="font-size: 1rem;">流畅播放720P视频</span></li><li class="list-group-item"><span style="font-size: 1rem;">每月流量30G</span><br></li><li class="list-group-item"><span style="font-size: 1rem;">支持3台设备同时使用</span></li>
+                            <li class="list-group-item"><span style="font-size: 1rem;"><strong><em>有效期  24小时</em></strong></span></li><li class="list-group-item"><span style="font-size: 1rem;">不限速
+</span></li><li class="list-group-item"><span style="font-size: 1rem;">流畅播放4K视频</span></li><li class="list-group-item"><span style="font-size: 1rem;">内含1G流量</span><br></li><li class="list-group-item"><span style="font-size: 1rem;">支持3台设备同时使用</span></li>
                         </ul>
                     </div>
                     
@@ -122,7 +123,7 @@
 
             <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-4">
                 <div class="plan-header text-center pt-5">
-                    <h3 class="plan-title mbr-fonts-style display-5">90天套餐</h3>
+                    <h3 class="plan-title mbr-fonts-style display-5">季度套餐</h3>
                     <div class="plan-price">
                         <span class="price-value mbr-fonts-style display-5">
                             ￥
@@ -135,7 +136,7 @@
                 <div class="plan-body pb-5">
                     <div class="plan-list align-center">
                         <ul class="list-group list-group-flush mbr-fonts-style display-7">
-                            <li class="list-group-item"><strong><em>有效期90天</em></strong></li><li class="list-group-item"><span style="font-size: 1rem;">最大速度50Mbps
+                            <li class="list-group-item"><strong><em>有效期  90天</em></strong></li><li class="list-group-item"><span style="font-size: 1rem;">限速30Mbps
 </span></li><li class="list-group-item"><span style="font-size: 1rem;">流畅播放1080P视频</span></li><li class="list-group-item"><span style="font-size: 1rem;">每月流量50G</span><br></li><li class="list-group-item">支持3台设备同时使用</li>
                         </ul>
                     </div>
@@ -143,15 +144,15 @@
                 </div>
             </div>
 
-            <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-4">
+
+         <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-4">
                 <div class="plan-header text-center pt-5">
-                    <h3 class="plan-title mbr-fonts-style display-5">180天套餐</h3>
+                    <h3 class="plan-title mbr-fonts-style display-5">半年套餐</h3>
                     <div class="plan-price">
                         <span class="price-value mbr-fonts-style display-5">
                             ￥
                         </span>
-                        <span class="price-figure mbr-fonts-style display-1">
-                            150</span>
+                        <span class="price-figure mbr-fonts-style display-1">150</span>
                        <!-- <small class="price-term mbr-fonts-style display-7">每月-->
                         </small>
                     </div>
@@ -159,7 +160,32 @@
                 <div class="plan-body pb-5">
                     <div class="plan-list align-center">
                         <ul class="list-group list-group-flush mbr-fonts-style display-7">
-                            <li class="list-group-item"><strong><em>有效期180天</em></strong></li><li class="list-group-item"><span style="font-size: 1rem;">最大速度100Mbps
+                            <li class="list-group-item"><strong><em>有效期  180天</em></strong></li><li class="list-group-item"><span style="font-size: 1rem;">最大速度30Mbps
+</span></li><li class="list-group-item"><span style="font-size: 1rem;">流畅播放1080P视频</span></li><li class="list-group-item"><span style="font-size: 1rem;">每月流量50G</span><br></li><li class="list-group-item">支持3台设备同时使用</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+      
+      
+            <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-4">
+                <div class="plan-header text-center pt-5">
+                    <h3 class="plan-title mbr-fonts-style display-5">年付套餐</h3>
+                    <div class="plan-price">
+                        <span class="price-value mbr-fonts-style display-5">
+                            ￥
+                        </span>
+                        <span class="price-figure mbr-fonts-style display-1">
+                            300</span>
+                       <!-- <small class="price-term mbr-fonts-style display-7">每月-->
+                        </small>
+                    </div>
+                </div>
+                <div class="plan-body pb-5">
+                    <div class="plan-list align-center">
+                        <ul class="list-group list-group-flush mbr-fonts-style display-7">
+                            <li class="list-group-item"><strong><em>有效期  365天</em></strong></li><li class="list-group-item"><span style="font-size: 1rem;">不限速
 </span></li><li class="list-group-item"><span style="font-size: 1rem;">流畅播放4K视频</span></li><li class="list-group-item"><span style="font-size: 1rem;">每月流量100G</span><br></li><li class="list-group-item">支持3台设备同时使用</li>
                         </ul>
                     </div>
