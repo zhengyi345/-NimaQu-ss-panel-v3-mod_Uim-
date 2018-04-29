@@ -5,3 +5,7 @@
 ### 2、用户界面 \resources\views\material\user 下的main.tpl、index.tpl <br>
 ### 同时修改 \app\Controllers\UserController.php 内相关内容 <br>
 ### 3、用户界面教程 \resources\views\material\user 下相相的 win.tpl、mac.tpl、ios.tpl、android.tpl <br>
+
+一键BBR CentOS 7 
+wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+
